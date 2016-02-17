@@ -10,10 +10,9 @@ def palindrome(text):
 
 for i in range(999,900,-1):
     for j in range(999,900,-1):
-        if palindrome(str(i * j)):
-            largest = i*j
-    if largest >0:
-        break
+        if (i*j)%11==0:
+            if palindrome(str(i * j)) and (i*j) > largest:
+                largest = i*j
 
 print(largest)
 
