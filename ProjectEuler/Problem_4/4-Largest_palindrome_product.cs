@@ -23,12 +23,3 @@ public static string Reverse( string s )
     Array.Reverse( charArray );
     return new string( charArray );
 }
-
-
-
-
-
-
-
-
-
