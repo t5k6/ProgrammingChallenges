@@ -11,3 +11,8 @@ def century(year)
 def duck_duck_goose(players, goose)
     players[(goose - 1) % players.length].name
 end
+
+# https://www.codewars.com/kata/welcome-to-the-city/train/ruby
+def say_hello(name, city, state)
+  "Hello, #{name.join(' ')}! Welcome to #{city}, #{state}!"
+end
