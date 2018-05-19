@@ -9,3 +9,8 @@ int findSmallest(vector <int> list)
   return min;
 }
 // alternative: return *std::min_element(list.begin(),list.end())
+
+// https://www.codewars.com/kata/the-feast-of-many-beasts/train/cpp
+bool feast(std::string beast, std::string dish){
+  return beast.front() == dish.front() && beast.back() == dish.back();
+}
