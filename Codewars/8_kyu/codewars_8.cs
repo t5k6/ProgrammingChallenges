@@ -17,3 +17,9 @@ public static string Solution(string str)
     return string.Join("",str.Reverse());
     //return new String(str.Reverse().ToArray());
 }
+
+// https://www.codewars.com/kata/the-feast-of-many-beasts/train/csharp
+public static bool Feast(string beast, string dish)
+{
+    return beast[0] == dish[0] && beast[beast.Length-1] == dish[dish.Length-1];
+}
