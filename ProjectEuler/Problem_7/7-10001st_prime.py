@@ -19,4 +19,4 @@ while n != 10001:
         n += 1
     i += 1
 
-print(i-1)
+print(i-1)  # 104743
